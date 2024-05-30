@@ -1,0 +1,410 @@
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+
+-- Instances
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainStuff = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Skywars = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_3 = Instance.new("Frame")
+local IY = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Light = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local coolguioriginal = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local febypass = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local ssp = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local rc7 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local JoCoolgui = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+
+-- Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainStuff.Name = "MainStuff"
+MainStuff.Parent = ScreenGui
+MainStuff.BackgroundColor3 = Color3.new(0, 0, 0)
+MainStuff.BorderColor3 = Color3.new(0, 0, 0)
+MainStuff.BorderSizePixel = 0
+MainStuff.Position = UDim2.new(0.070788607, 0, 0.300257742, 0)
+MainStuff.Size = UDim2.new(0, 728, 0, 510)
+
+Frame.Parent = MainStuff
+Frame.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.224770635, 0, 2.9919196e-08, 0)
+Frame.Size = UDim2.new(0, 1, 0, 509)
+
+TextLabel.Parent = MainStuff
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = " "
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextSize = 14
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Size = UDim2.new(0, 164, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Galaxy"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+Skywars.Name = "Skywars"
+Skywars.Parent = MainStuff
+Skywars.BackgroundColor3 = Color3.new(1, 1, 1)
+Skywars.BackgroundTransparency = 1
+Skywars.BorderColor3 = Color3.new(0, 0, 0)
+Skywars.BorderSizePixel = 0
+Skywars.Size = UDim2.new(0, 200, 0, 50)
+Skywars.Font = Enum.Font.SourceSans
+Skywars.Text = " "
+Skywars.TextColor3 = Color3.new(0, 0, 0)
+Skywars.TextSize = 14
+
+TextLabel_3.Parent = Skywars
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.new(0, 0, 0)
+TextLabel_3.TextSize = 14
+
+Frame_2.Parent = TextLabel_3
+Frame_2.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Frame_2.BorderColor3 = Color3.new(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.814999998, 0, 1, 0)
+Frame_2.Size = UDim2.new(0, 565, 0, 2)
+
+TextLabel_4.Parent = TextLabel_3
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.819999993, 0, 0.0399999991, 0)
+TextLabel_4.Size = UDim2.new(0, 564, 0, 50)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Galaxy | #1 Hub"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextWrapped = true
+
+Frame_3.Parent = TextLabel_3
+Frame_3.BackgroundColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Frame_3.BorderColor3 = Color3.new(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 1, 0)
+Frame_3.Size = UDim2.new(0, 728, 0, 2)
+
+IY.Name = "IY"
+IY.Parent = TextLabel_3
+IY.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+IY.BorderColor3 = Color3.new(0, 0, 0)
+IY.BorderSizePixel = 0
+IY.Position = UDim2.new(0.894999981, 0, 1.25999999, 0)
+IY.Size = UDim2.new(0, 173, 0, 42)
+IY.Font = Enum.Font.SourceSansBold
+IY.Text = "Infinite Yield"
+IY.TextColor3 = Color3.new(1, 1, 1)
+IY.TextScaled = true
+IY.TextSize = 14
+IY.TextWrapped = true
+
+UICorner.Parent = IY
+
+Fly.Name = "Fly"
+Fly.Parent = TextLabel_3
+Fly.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Fly.BorderColor3 = Color3.new(0, 0, 0)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(1.92499995, 0, 1.25999999, 0)
+Fly.Size = UDim2.new(0, 173, 0, 42)
+Fly.Font = Enum.Font.SourceSansBold
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.new(1, 1, 1)
+Fly.TextScaled = true
+Fly.TextSize = 14
+Fly.TextWrapped = true
+
+UICorner_2.Parent = Fly
+
+Light.Name = "Light"
+Light.Parent = TextLabel_3
+Light.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Light.BorderColor3 = Color3.new(0, 0, 0)
+Light.BorderSizePixel = 0
+Light.Position = UDim2.new(0.894999981, 0, 2.42000008, 0)
+Light.Size = UDim2.new(0, 173, 0, 42)
+Light.Font = Enum.Font.SourceSansBold
+Light.Text = "Light Hub"
+Light.TextColor3 = Color3.new(1, 1, 1)
+Light.TextScaled = true
+Light.TextSize = 14
+Light.TextWrapped = true
+
+UICorner_3.Parent = Light
+
+coolguioriginal.Name = "coolguioriginal"
+coolguioriginal.Parent = TextLabel_3
+coolguioriginal.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+coolguioriginal.BorderColor3 = Color3.new(0, 0, 0)
+coolguioriginal.BorderSizePixel = 0
+coolguioriginal.Position = UDim2.new(1.92499995, 0, 2.42000008, 0)
+coolguioriginal.Size = UDim2.new(0, 173, 0, 42)
+coolguioriginal.Font = Enum.Font.SourceSansBold
+coolguioriginal.Text = "C00lGUI FE"
+coolguioriginal.TextColor3 = Color3.new(1, 1, 1)
+coolguioriginal.TextScaled = true
+coolguioriginal.TextSize = 14
+coolguioriginal.TextWrapped = true
+
+UICorner_4.Parent = coolguioriginal
+
+febypass.Name = "febypass"
+febypass.Parent = TextLabel_3
+febypass.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+febypass.BorderColor3 = Color3.new(0, 0, 0)
+febypass.BorderSizePixel = 0
+febypass.Position = UDim2.new(0.894999981, 0, 3.5, 0)
+febypass.Size = UDim2.new(0, 173, 0, 42)
+febypass.Font = Enum.Font.SourceSansBold
+febypass.Text = "Fake Fe Bypass :skull:"
+febypass.TextColor3 = Color3.new(1, 1, 1)
+febypass.TextScaled = true
+febypass.TextSize = 14
+febypass.TextWrapped = true
+
+UICorner_5.Parent = febypass
+
+ssp.Name = "ssp"
+ssp.Parent = TextLabel_3
+ssp.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+ssp.BorderColor3 = Color3.new(0, 0, 0)
+ssp.BorderSizePixel = 0
+ssp.Position = UDim2.new(1.92499995, 0, 3.5, 0)
+ssp.Size = UDim2.new(0, 173, 0, 42)
+ssp.Font = Enum.Font.SourceSansBold
+ssp.Text = "SSP"
+ssp.TextColor3 = Color3.new(1, 1, 1)
+ssp.TextScaled = true
+ssp.TextSize = 14
+ssp.TextWrapped = true
+
+UICorner_6.Parent = ssp
+
+rc7.Name = "rc7"
+rc7.Parent = TextLabel_3
+rc7.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+rc7.BorderColor3 = Color3.new(0, 0, 0)
+rc7.BorderSizePixel = 0
+rc7.Position = UDim2.new(0.894999921, 0, 4.67999983, 0)
+rc7.Size = UDim2.new(0, 379, 0, 42)
+rc7.Font = Enum.Font.SourceSansBold
+rc7.Text = "Rc7 Client Executor"
+rc7.TextColor3 = Color3.new(1, 1, 1)
+rc7.TextScaled = true
+rc7.TextSize = 14
+rc7.TextWrapped = true
+
+UICorner_7.Parent = rc7
+
+JoCoolgui.Name = "JoCoolgui"
+JoCoolgui.Parent = TextLabel_3
+JoCoolgui.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
+JoCoolgui.BorderColor3 = Color3.new(0, 0, 0)
+JoCoolgui.BorderSizePixel = 0
+JoCoolgui.Position = UDim2.new(2.91000009, 0, 1.25999999, 0)
+JoCoolgui.Size = UDim2.new(0, 121, 0, 213)
+JoCoolgui.Font = Enum.Font.SourceSansBold
+JoCoolgui.Text = "c00lgui by jo1tar0"
+JoCoolgui.TextColor3 = Color3.new(1, 1, 1)
+JoCoolgui.TextScaled = true
+JoCoolgui.TextSize = 14
+JoCoolgui.TextWrapped = true
+
+UICorner_8.Parent = JoCoolgui
+
+TextLabel_5.Parent = TextLabel_3
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.814999998, 0, 7.69999981, 0)
+TextLabel_5.Size = UDim2.new(0, 565, 0, 50)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "More stuff may come soon[not sure]"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14
+TextLabel_5.TextWrapped = true
+
+TextLabel_6.Parent = Skywars
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0, 0, 1.41999996, 0)
+TextLabel_6.Size = UDim2.new(0, 163, 0, 111)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "MADE BY JO1TAR0"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14
+TextLabel_6.TextWrapped = true
+
+-- Scripts
+
+local function TCPRSC_fake_script() -- MainStuff.Drag 
+	local script = Instance.new('LocalScript', MainStuff)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(TCPRSC_fake_script)()
+
+-- done febypass,
+
+febypass.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Enes5858/Enes5858/main/SKIDDDDD.txt"))()
+end)
+
+Light.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://pastebin.com/raw/tCEJEmW5"))();
+end)
+
+coolguioriginal.MouseButton1Down:connect(function() 
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+
+ssp.MouseButton1Down:connect(function() 
+	-- https://pastebin.com/raw/VwGJr3Te uploaded ssp
+	loadstring(game:HttpGet("https://pastebin.com/raw/VwGJr3Te"))();
+end)
+
+rc7.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CoreGui/Scripts/main/RC7"))()
+end)
+
+JoCoolgui.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jo1tar0/c00lgui-by-jo1tar0/1134f4fd41c917c2a8ac40cdf0bcba6eef8298a5/c00lgui%20by%20%20jo1tar0%23hax"))();
+end)
+
+
+IY.MouseButton1Down:connect(function() 
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+Fly.MouseButton1Down:connect(function() 
+	local isFlying = false
+	local camera = workspace.CurrentCamera
+	local char = game.Players.LocalPlayer.Character
+	local hrp = char:WaitForChild("HumanoidRootPart")
+
+	local bodyPos = Instance.new("BodyPosition")
+	bodyPos.MaxForce = Vector3.new()
+	bodyPos.D = 10
+	bodyPos.P = 100
+	bodyPos.Parent = hrp
+
+	local bodyGyro = Instance.new("BodyGyro")
+	bodyGyro.MaxTorque = Vector3.new()
+	bodyGyro.D = 10
+	bodyGyro.Parent = hrp
+
+	script.Parent.MouseButton1Click:Connect(function()
+		isFlying = not isFlying
+	end)
+
+	script.Parent.MouseButton2Click:Connect(function()
+		isFlying = false
+	end)
+
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if isFlying then
+			bodyPos.MaxForce = Vector3.new(math.huge, math.huge,math)
+			bodyGyro.MaxTorque = Vector3.new(math.huge, math.huge, math.huge)
+			bodyPos.Position = hrp.Position +((hrp.Position - camera.CFrame.Position).Unit * 10)
+			bodyGyro.CFrame = CFrame.new(camera.CFrame.Position, hrp.Position)
+		else
+			bodyPos.MaxForce = Vector3.new()
+			bodyGyro.MaxTorque = Vector3.new()
+		end
+	end)
+
+
+end)
